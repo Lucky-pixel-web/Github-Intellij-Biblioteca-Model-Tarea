@@ -4509,3 +4509,1286 @@ com.example.biblioteca.controller.error.ResourceNotFoundException: autor con id 
 2025-08-24T10:50:35.055-05:00 DEBUG 17472 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@54e92952: (connection evicted)
 2025-08-24T10:50:35.058-05:00 DEBUG 17472 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After  shutdown stats (total=0/10, idle=0/10, active=0, waiting=0)
 2025-08-24T10:50:35.058-05:00  INFO 17472 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-24T12:48:30.026-05:00  INFO 7100 --- [biblioteca] [main] c.e.biblioteca.BibliotecaApplication     : Starting BibliotecaApplication using Java 21.0.8 with PID 7100 (C:\Users\xj109\IdeaProjects\biblioteca-model\target\classes started by xj109 in C:\Users\xj109\IdeaProjects\biblioteca-model)
+2025-08-24T12:48:30.031-05:00  INFO 7100 --- [biblioteca] [main] c.e.biblioteca.BibliotecaApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-24T12:48:31.811-05:00  INFO 7100 --- [biblioteca] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-24T12:48:32.062-05:00  INFO 7100 --- [biblioteca] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 209 ms. Found 12 JPA repository interfaces.
+2025-08-24T12:48:32.802-05:00  INFO 7100 --- [biblioteca] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-08-24T12:48:32.822-05:00  INFO 7100 --- [biblioteca] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-24T12:48:32.823-05:00  INFO 7100 --- [biblioteca] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-24T12:48:32.922-05:00  INFO 7100 --- [biblioteca] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-24T12:48:32.923-05:00  INFO 7100 --- [biblioteca] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2813 ms
+2025-08-24T12:48:33.103-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : Class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528
+2025-08-24T12:48:33.328-05:00  INFO 7100 --- [biblioteca] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-24T12:48:33.487-05:00  INFO 7100 --- [biblioteca] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-24T12:48:33.577-05:00  INFO 7100 --- [biblioteca] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-24T12:48:34.198-05:00  INFO 7100 --- [biblioteca] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-24T12:48:34.289-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-08-24T12:48:34.297-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-08-24T12:48:34.299-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-08-24T12:48:34.301-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-08-24T12:48:34.302-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-08-24T12:48:34.303-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery.............none
+2025-08-24T12:48:34.305-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............30000
+2025-08-24T12:48:34.305-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : credentials.....................com.zaxxer.hikari.util.Credentials@308e87a1
+2025-08-24T12:48:34.306-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-08-24T12:48:34.307-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-08-24T12:48:34.310-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-08-24T12:48:34.312-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-08-24T12:48:34.313-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : driverClassName................."oracle.jdbc.OracleDriver"
+2025-08-24T12:48:34.313-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverride...............none
+2025-08-24T12:48:34.314-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-08-24T12:48:34.316-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-08-24T12:48:34.316-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-08-24T12:48:34.317-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................600000
+2025-08-24T12:48:34.317-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-08-24T12:48:34.318-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-08-24T12:48:34.318-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:oracle:thin:@localhost:1521/XEPDB1
+2025-08-24T12:48:34.318-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................120000
+2025-08-24T12:48:34.319-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2025-08-24T12:48:34.319-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-08-24T12:48:34.320-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................10
+2025-08-24T12:48:34.320-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-08-24T12:48:34.321-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-08-24T12:48:34.321-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................10
+2025-08-24T12:48:34.322-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-08-24T12:48:34.323-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-08-24T12:48:34.325-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-08-24T12:48:34.325-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-08-24T12:48:34.327-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-08-24T12:48:34.328-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-08-24T12:48:34.329-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-08-24T12:48:34.329-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-08-24T12:48:34.329-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : username........................"USERLP2"
+2025-08-24T12:48:34.330-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-08-24T12:48:34.330-05:00  INFO 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-24T12:48:34.351-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (d0dc31aa-9eec-41b9-941c-33780186adac)
+2025-08-24T12:48:35.221-05:00 DEBUG 7100 --- [biblioteca] [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (d0dc31aa-9eec-41b9-941c-33780186adac)
+2025-08-24T12:48:35.222-05:00  INFO 7100 --- [biblioteca] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@54bb1194
+2025-08-24T12:48:35.226-05:00  INFO 7100 --- [biblioteca] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-24T12:48:35.337-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1/10, idle=0/10, active=1, waiting=0)
+2025-08-24T12:48:35.338-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (24c4ed40-1281-4aa3-8899-13c7a1545ac4)
+2025-08-24T12:48:35.456-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (24c4ed40-1281-4aa3-8899-13c7a1545ac4)
+2025-08-24T12:48:35.456-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@37e9c702
+2025-08-24T12:48:35.492-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2/10, idle=1/10, active=1, waiting=0)
+2025-08-24T12:48:35.492-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (18ab38b9-ea7e-4378-84ad-018efd426236)
+2025-08-24T12:48:35.595-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (18ab38b9-ea7e-4378-84ad-018efd426236)
+2025-08-24T12:48:35.596-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6cc58e81
+2025-08-24T12:48:35.630-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3/10, idle=2/10, active=1, waiting=0)
+2025-08-24T12:48:35.631-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (c9b7dca8-7fee-43fe-846e-df26c524b563)
+2025-08-24T12:48:35.712-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (c9b7dca8-7fee-43fe-846e-df26c524b563)
+2025-08-24T12:48:35.712-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5dd2567a
+2025-08-24T12:48:35.743-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4/10, idle=3/10, active=1, waiting=0)
+2025-08-24T12:48:35.743-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (4185acc2-a557-4d5d-857a-009afea40c23)
+2025-08-24T12:48:35.783-05:00  INFO 7100 --- [biblioteca] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-24T12:48:35.817-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (4185acc2-a557-4d5d-857a-009afea40c23)
+2025-08-24T12:48:35.817-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@679cb12a
+2025-08-24T12:48:35.848-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5/10, idle=5/10, active=0, waiting=0)
+2025-08-24T12:48:35.848-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (ca0082e3-840f-4a4a-973c-c81d646ec71f)
+2025-08-24T12:48:35.932-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (ca0082e3-840f-4a4a-973c-c81d646ec71f)
+2025-08-24T12:48:35.932-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@241d475f
+2025-08-24T12:48:35.964-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6/10, idle=6/10, active=0, waiting=0)
+2025-08-24T12:48:35.964-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (7ab84bd2-bc98-4f4a-92e6-8b246f2b472d)
+2025-08-24T12:48:36.059-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (7ab84bd2-bc98-4f4a-92e6-8b246f2b472d)
+2025-08-24T12:48:36.059-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3ec38a3a
+2025-08-24T12:48:36.090-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7/10, idle=7/10, active=0, waiting=0)
+2025-08-24T12:48:36.090-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (32ae0f8c-8c03-42a0-970d-79826a0db672)
+2025-08-24T12:48:36.193-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (32ae0f8c-8c03-42a0-970d-79826a0db672)
+2025-08-24T12:48:36.193-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6483490d
+2025-08-24T12:48:36.225-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8/10, idle=8/10, active=0, waiting=0)
+2025-08-24T12:48:36.225-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (2f2b020a-6066-4667-a472-cc9a756afb73)
+2025-08-24T12:48:36.320-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (2f2b020a-6066-4667-a472-cc9a756afb73)
+2025-08-24T12:48:36.320-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@690feaea
+2025-08-24T12:48:36.351-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9/10, idle=9/10, active=0, waiting=0)
+2025-08-24T12:48:36.351-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Attempting to create/setup new connection (37a6f98a-441c-45ea-be9a-fb3128b12ad1)
+2025-08-24T12:48:36.447-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Established new connection (37a6f98a-441c-45ea-be9a-fb3128b12ad1)
+2025-08-24T12:48:36.448-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1817ffe5
+2025-08-24T12:48:36.479-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:48:36.479-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Connection not added, stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:48:38.164-05:00  INFO 7100 --- [biblioteca] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-24T12:48:38.882-05:00  INFO 7100 --- [biblioteca] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-24T12:48:39.733-05:00  WARN 7100 --- [biblioteca] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-24T12:48:39.900-05:00 DEBUG 7100 --- [biblioteca] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 17 mappings in 'requestMappingHandlerMapping'
+2025-08-24T12:48:40.049-05:00 DEBUG 7100 --- [biblioteca] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-08-24T12:48:40.089-05:00 DEBUG 7100 --- [biblioteca] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-24T12:48:40.153-05:00 DEBUG 7100 --- [biblioteca] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-24T12:48:40.492-05:00  INFO 7100 --- [biblioteca] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-08-24T12:48:40.501-05:00  INFO 7100 --- [biblioteca] [main] c.e.biblioteca.BibliotecaApplication     : Started BibliotecaApplication in 11.433 seconds (process running for 12.743)
+2025-08-24T12:49:05.350-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:49:05.350-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:49:35.352-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:49:35.352-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:50:03.382-05:00  INFO 7100 --- [biblioteca] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-24T12:50:03.382-05:00  INFO 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-24T12:50:03.382-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-08-24T12:50:03.382-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-08-24T12:50:03.382-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-08-24T12:50:03.382-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@781ecbac
+2025-08-24T12:50:03.382-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@475a8415
+2025-08-24T12:50:03.389-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-08-24T12:50:03.389-05:00  INFO 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-08-24T12:50:03.411-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-08-24T12:50:03.430-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#getAll()
+2025-08-24T12:50:03.693-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0
+2025-08-24T12:50:03.855-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:03.865-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=1, nombre=FICCIÓN, estado=A), CategoriaDTO(id=2, nombre=NO FICCIÓN, estado=A), Cate (truncated)...]
+2025-08-24T12:50:04.083-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:50:05.357-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:50:05.358-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:50:12.179-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:50:13.262-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias/1", parameters={}
+2025-08-24T12:50:13.265-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#obtenerPorId(Long)
+2025-08-24T12:50:13.321-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:50:13.362-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:13.362-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=1, nombre=FICCIÓN, estado=A)]
+2025-08-24T12:50:13.364-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:50:15.108-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T12:50:16.009-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T12:50:16.194-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias/", parameters={}
+2025-08-24T12:50:16.202-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-08-24T12:50:16.209-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-08-24T12:50:16.217-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.biblioteca.controller.error.GlobalExceptionHandler#handleGeneric(Exception, HttpServletRequest)
+2025-08-24T12:50:16.265-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json', given [*/*] and supported [application/problem+json]
+2025-08-24T12:50:16.277-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Error interno', status=500, detail='Ha ocurrido un error no (truncated)...]
+2025-08-24T12:50:16.281-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/categorias.]
+2025-08-24T12:50:16.282-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-08-24T12:50:17.549-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T12:50:18.882-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T12:50:19.144-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias/2", parameters={}
+2025-08-24T12:50:19.146-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#obtenerPorId(Long)
+2025-08-24T12:50:19.151-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:50:19.156-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:19.156-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=2, nombre=NO FICCIÓN, estado=A)]
+2025-08-24T12:50:19.159-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:50:20.220-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T12:50:22.094-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias/3", parameters={}
+2025-08-24T12:50:22.095-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#obtenerPorId(Long)
+2025-08-24T12:50:22.099-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:50:22.104-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:22.104-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=3, nombre=CIENCIA, estado=A)]
+2025-08-24T12:50:22.106-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:50:25.281-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias/4", parameters={}
+2025-08-24T12:50:25.283-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#obtenerPorId(Long)
+2025-08-24T12:50:25.286-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:50:25.294-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:25.295-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=4, nombre=TECNOLOGÍA, estado=A)]
+2025-08-24T12:50:25.297-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:50:28.134-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias/5", parameters={}
+2025-08-24T12:50:28.136-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#obtenerPorId(Long)
+2025-08-24T12:50:28.138-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:50:28.146-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.biblioteca.controller.error.GlobalExceptionHandler#handleNotFound(ConfigDataResourceNotFoundException, HttpServletRequest)
+2025-08-24T12:50:28.154-05:00  WARN 7100 --- [biblioteca] [http-nio-9090-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.example.biblioteca.controller.error.GlobalExceptionHandler#handleNotFound(ConfigDataResourceNotFoundException, HttpServletRequest)
+
+java.lang.IllegalStateException: Could not resolve parameter [0] in public org.springframework.http.ResponseEntity<org.springframework.http.ProblemDetail> com.example.biblioteca.controller.error.GlobalExceptionHandler.handleNotFound(org.springframework.boot.context.config.ConfigDataResourceNotFoundException,jakarta.servlet.http.HttpServletRequest): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:471) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:73) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:182) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1360) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1161) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-24T12:50:28.166-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Failed to complete request: com.example.biblioteca.controller.error.ResourceNotFoundException: Categoría con id 5 no existe
+2025-08-24T12:50:28.167-05:00 ERROR 7100 --- [biblioteca] [http-nio-9090-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.biblioteca.controller.error.ResourceNotFoundException: Categoría con id 5 no existe] with root cause
+
+com.example.biblioteca.controller.error.ResourceNotFoundException: Categoría con id 5 no existe
+	at com.example.biblioteca.controller.general.CategoriaController.lambda$obtenerPorId$0(CategoriaController.java:43) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.example.biblioteca.controller.general.CategoriaController.obtenerPorId(CategoriaController.java:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-24T12:50:28.184-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-08-24T12:50:28.187-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-08-24T12:50:28.195-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:28.197-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Aug 24 12:50:28 PET 2025, status=500, error=Internal Server Error, message=Categoría  (truncated)...]
+2025-08-24T12:50:28.212-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2025-08-24T12:50:29.825-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T12:50:30.075-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T12:50:32.191-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T12:50:33.224-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T12:50:35.374-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:50:35.374-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:50:52.113-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/categorias", parameters={}
+2025-08-24T12:50:52.114-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#crear(CategoriaDTO)
+2025-08-24T12:50:52.233-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [CategoriaDTO(id=null, nombre=NO TECNOLOGIA, estado=A)]
+2025-08-24T12:50:52.353-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        USERLP2.tbl_categorias
+        (estado, nombre, id) 
+    values
+        (?, ?, default)
+2025-08-24T12:50:52.420-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:50:52.421-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=5, nombre=NO TECNOLOGIA, estado=A)]
+2025-08-24T12:50:52.422-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-08-24T12:51:05.391-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:51:05.391-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:51:20.087-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-08-24T12:51:20.087-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#getAll()
+2025-08-24T12:51:20.090-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0
+2025-08-24T12:51:20.096-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:51:20.096-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=5, nombre=NO TECNOLOGIA, estado=A), CategoriaDTO(id=1, nombre=FICCIÓN, estado=A), C (truncated)...]
+2025-08-24T12:51:20.096-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:51:35.393-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:51:35.394-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:51:48.648-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:51:54.158-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T12:51:55.821-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T12:51:59.504-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T12:52:02.307-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T12:52:04.505-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T12:52:05.408-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:52:05.408-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:52:23.830-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T12:52:24.435-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T12:52:27.936-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T12:52:30.638-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T12:52:35.024-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/categorias/5", parameters={}
+2025-08-24T12:52:35.025-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#actualizar(Long, CategoriaDTO)
+2025-08-24T12:52:35.029-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [CategoriaDTO(id=5, nombre=NO TECNOLOGIA 1, estado=A)]
+2025-08-24T12:52:35.032-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:52:35.060-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    update
+        USERLP2.tbl_categorias 
+    set
+        estado=?,
+        nombre=? 
+    where
+        id=?
+2025-08-24T12:52:35.072-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:52:35.074-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [CategoriaDTO(id=5, nombre=NO TECNOLOGIA 1, estado=A)]
+2025-08-24T12:52:35.075-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:52:35.414-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:52:35.415-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:52:40.507-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-08-24T12:52:40.508-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#getAll()
+2025-08-24T12:52:40.513-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0
+2025-08-24T12:52:40.518-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:52:40.519-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=5, nombre=NO TECNOLOGIA 1, estado=A), CategoriaDTO(id=1, nombre=FICCIÓN, estado=A), (truncated)...]
+2025-08-24T12:52:40.520-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:52:52.462-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/api/v1/categorias/5", parameters={}
+2025-08-24T12:52:52.464-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#eliminar(Long)
+2025-08-24T12:52:52.467-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:52:52.475-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    update
+        USERLP2.tbl_categorias 
+    set
+        estado=?,
+        nombre=? 
+    where
+        id=?
+2025-08-24T12:52:52.481-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-08-24T12:52:52.483-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Categoría desactivada correctamente"]
+2025-08-24T12:52:52.485-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:52:56.635-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-08-24T12:52:56.636-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#getAll()
+2025-08-24T12:52:56.640-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0
+2025-08-24T12:52:56.646-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:52:56.647-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=5, nombre=NO TECNOLOGIA 1, estado=I), CategoriaDTO(id=1, nombre=FICCIÓN, estado=A), (truncated)...]
+2025-08-24T12:52:56.649-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:53:05.419-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:53:05.419-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:53:25.125-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:53:33.236-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T12:53:35.428-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:53:35.428-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:53:35.630-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T12:53:41.456-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T12:53:45.736-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T12:53:48.787-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T12:54:03.056-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones", parameters={}
+2025-08-24T12:54:03.056-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#getAll()
+2025-08-24T12:54:03.061-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0
+2025-08-24T12:54:03.100-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:54:03.103-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:54:03.106-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:54:03.110-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:54:03.116-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:54:03.118-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[SeccionDTO(id=1, nombre=NOVELA CONTEMPORÁNEA, estado=A, categoriaId=1), SeccionDTO(id=2, nombre=HIS (truncated)...]
+2025-08-24T12:54:03.123-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:54:05.432-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:54:05.432-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:54:16.976-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones/1", parameters={}
+2025-08-24T12:54:16.976-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#obtenerPorId(Long)
+2025-08-24T12:54:16.977-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0 
+    join
+        USERLP2.tbl_categorias c1_0 
+            on c1_0.id=s1_0.categoria_id 
+    where
+        s1_0.id=?
+2025-08-24T12:54:16.994-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:54:16.994-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [SeccionDTO(id=1, nombre=NOVELA CONTEMPORÁNEA, estado=A, categoriaId=1)]
+2025-08-24T12:54:16.996-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:54:17.592-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T12:54:19.041-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T12:54:20.149-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones/2", parameters={}
+2025-08-24T12:54:20.149-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#obtenerPorId(Long)
+2025-08-24T12:54:20.149-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0 
+    join
+        USERLP2.tbl_categorias c1_0 
+            on c1_0.id=s1_0.categoria_id 
+    where
+        s1_0.id=?
+2025-08-24T12:54:20.156-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:54:20.156-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [SeccionDTO(id=2, nombre=HISTORIA, estado=A, categoriaId=2)]
+2025-08-24T12:54:20.158-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:54:22.963-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones/3", parameters={}
+2025-08-24T12:54:22.964-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#obtenerPorId(Long)
+2025-08-24T12:54:22.966-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0 
+    join
+        USERLP2.tbl_categorias c1_0 
+            on c1_0.id=s1_0.categoria_id 
+    where
+        s1_0.id=?
+2025-08-24T12:54:22.972-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:54:22.973-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [SeccionDTO(id=3, nombre=PROGRAMACIÓN, estado=A, categoriaId=4)]
+2025-08-24T12:54:22.974-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:54:23.680-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T12:54:25.290-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones/4", parameters={}
+2025-08-24T12:54:25.296-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#obtenerPorId(Long)
+2025-08-24T12:54:25.299-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0 
+    join
+        USERLP2.tbl_categorias c1_0 
+            on c1_0.id=s1_0.categoria_id 
+    where
+        s1_0.id=?
+2025-08-24T12:54:25.303-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:54:25.303-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [SeccionDTO(id=4, nombre=DIVULGACIÓN CIENTÍFICA, estado=A, categoriaId=3)]
+2025-08-24T12:54:25.305-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:54:28.051-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T12:54:35.434-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:54:35.434-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:55:01.591-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:55:05.449-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:55:05.449-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:55:12.297-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T12:55:15.438-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T12:55:19.410-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/secciones", parameters={}
+2025-08-24T12:55:19.410-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#crear(SeccionDTO)
+2025-08-24T12:55:19.414-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [SeccionDTO(id=null, nombre=CALCULO DIFERENCIAL, estado=A, categoriaId=5)]
+2025-08-24T12:55:19.423-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:55:19.429-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] org.hibernate.SQL                        : 
+    insert 
+    into
+        USERLP2.tbl_secciones
+        (categoria_id, estado, nombre, id) 
+    values
+        (?, ?, ?, default)
+2025-08-24T12:55:19.444-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:55:19.445-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL, estado=A, categoriaId=5)]
+2025-08-24T12:55:19.446-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-08-24T12:55:23.414-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T12:55:25.535-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones", parameters={}
+2025-08-24T12:55:25.535-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#getAll()
+2025-08-24T12:55:25.541-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0
+2025-08-24T12:55:25.545-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:55:25.550-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:55:25.552-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:55:25.556-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:55:25.562-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:55:25.565-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:55:25.565-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL, estado=A, categoriaId=5), SeccionDTO(id=1, nombre=NOVE (truncated)...]
+2025-08-24T12:55:25.565-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:55:29.157-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T12:55:33.071-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T12:55:35.456-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:55:35.456-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:55:59.417-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/secciones/5", parameters={}
+2025-08-24T12:55:59.418-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#actualizar(Long, SeccionDTO)
+2025-08-24T12:55:59.420-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL III, estado=A, categoriaId=5)]
+2025-08-24T12:55:59.424-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0 
+    join
+        USERLP2.tbl_categorias c1_0 
+            on c1_0.id=s1_0.categoria_id 
+    where
+        s1_0.id=?
+2025-08-24T12:55:59.432-05:00  INFO 7100 --- [biblioteca] [http-nio-9090-exec-8] c.e.b.s.general.impl.SeccionServiceImpl  : action=update entity=Seccion id=5 outcome=OK
+2025-08-24T12:55:59.434-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    update
+        USERLP2.tbl_secciones 
+    set
+        categoria_id=?,
+        estado=?,
+        nombre=? 
+    where
+        id=?
+2025-08-24T12:55:59.449-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:55:59.450-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL III, estado=A, categoriaId=5)]
+2025-08-24T12:55:59.451-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:04.816-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones", parameters={}
+2025-08-24T12:56:04.817-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#getAll()
+2025-08-24T12:56:04.821-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0
+2025-08-24T12:56:04.824-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:04.827-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:04.829-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:04.832-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:04.835-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:04.838-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:56:04.839-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL III, estado=A, categoriaId=5), SeccionDTO(id=1, nombre= (truncated)...]
+2025-08-24T12:56:04.840-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:05.466-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:56:05.466-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:56:11.361-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T12:56:13.647-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T12:56:14.284-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : DELETE "/api/v1/secciones/5", parameters={}
+2025-08-24T12:56:14.286-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#eliminar(Long)
+2025-08-24T12:56:14.287-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0 
+    join
+        USERLP2.tbl_categorias c1_0 
+            on c1_0.id=s1_0.categoria_id 
+    where
+        s1_0.id=?
+2025-08-24T12:56:14.293-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] org.hibernate.SQL                        : 
+    update
+        USERLP2.tbl_secciones 
+    set
+        categoria_id=?,
+        estado=?,
+        nombre=? 
+    where
+        id=?
+2025-08-24T12:56:14.297-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-08-24T12:56:14.297-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Sección desactivada correctamente"]
+2025-08-24T12:56:14.298-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:18.988-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones", parameters={}
+2025-08-24T12:56:18.989-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#getAll()
+2025-08-24T12:56:18.992-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0
+2025-08-24T12:56:18.994-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:18.997-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:19.001-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:19.004-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:19.008-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:56:19.013-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:56:19.014-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL III, estado=I, categoriaId=5), SeccionDTO(id=1, nombre= (truncated)...]
+2025-08-24T12:56:19.016-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:19.421-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T12:56:25.459-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T12:56:27.276-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores", parameters={}
+2025-08-24T12:56:27.276-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#getAll()
+2025-08-24T12:56:27.282-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0
+2025-08-24T12:56:27.296-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:56:27.299-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[AutorDTO(id=1, nombres=GABRIEL, apellidos=GARCÍA MÁRQUEZ, pais=COLOMBIA, estado=A), AutorDTO(id=2,  (truncated)...]
+2025-08-24T12:56:27.304-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:35.469-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:56:35.469-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:56:36.711-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/1", parameters={}
+2025-08-24T12:56:36.712-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#obtenerPorId(Long)
+2025-08-24T12:56:36.716-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:56:36.731-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:56:36.732-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=1, nombres=GABRIEL, apellidos=GARCÍA MÁRQUEZ, pais=COLOMBIA, estado=A)]
+2025-08-24T12:56:36.733-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:38.063-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:56:39.966-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/2", parameters={}
+2025-08-24T12:56:39.967-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#obtenerPorId(Long)
+2025-08-24T12:56:39.971-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:56:39.975-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:56:39.976-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=2, nombres=ISABEL, apellidos=ALLENDE, pais=CHILE, estado=A)]
+2025-08-24T12:56:39.979-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:42.642-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/", parameters={}
+2025-08-24T12:56:42.647-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-08-24T12:56:42.650-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-08-24T12:56:42.650-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.biblioteca.controller.error.GlobalExceptionHandler#handleGeneric(Exception, HttpServletRequest)
+2025-08-24T12:56:42.650-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json', given [*/*] and supported [application/problem+json]
+2025-08-24T12:56:42.650-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Error interno', status=500, detail='Ha ocurrido un error no (truncated)...]
+2025-08-24T12:56:42.657-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/autores.]
+2025-08-24T12:56:42.657-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-08-24T12:56:44.506-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/3", parameters={}
+2025-08-24T12:56:44.507-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#obtenerPorId(Long)
+2025-08-24T12:56:44.510-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:56:44.514-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:56:44.515-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=3, nombres=YUVAL, apellidos=NOAH HARARI, pais=ISRAEL, estado=A)]
+2025-08-24T12:56:44.518-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:56:51.345-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T12:56:55.251-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T12:57:00.806-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/4", parameters={}
+2025-08-24T12:57:00.807-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#obtenerPorId(Long)
+2025-08-24T12:57:00.809-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:57:00.813-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:57:00.815-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=4, nombres=ROBERT, apellidos=MARTIN, pais=USA, estado=A)]
+2025-08-24T12:57:00.816-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:57:03.377-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/5", parameters={}
+2025-08-24T12:57:03.378-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#obtenerPorId(Long)
+2025-08-24T12:57:03.381-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:57:03.384-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:57:03.385-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=5, nombres=MARTIN, apellidos=FOWLER, pais=UK, estado=A)]
+2025-08-24T12:57:03.387-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:57:05.370-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T12:57:05.481-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:57:05.481-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:57:06.107-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores/6", parameters={}
+2025-08-24T12:57:06.107-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#obtenerPorId(Long)
+2025-08-24T12:57:06.111-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:57:06.113-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:57:06.114-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=6, nombres=CARL, apellidos=SAGAN, pais=USA, estado=A)]
+2025-08-24T12:57:06.116-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:57:12.590-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T12:57:17.034-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/autores", parameters={}
+2025-08-24T12:57:17.036-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#crear(AutorDTO)
+2025-08-24T12:57:17.039-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [AutorDTO(id=null, nombres=GIEZI, apellidos=VIVAS CONISLLA, pais=RUSIA, estado=A)]
+2025-08-24T12:57:17.060-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        USERLP2.tbl_autores
+        (apellidos, estado, nombres, pais, id) 
+    values
+        (?, ?, ?, ?, default)
+2025-08-24T12:57:17.071-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:57:17.076-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=7, nombres=GIEZI, apellidos=VIVAS CONISLLA, pais=RUSIA, estado=A)]
+2025-08-24T12:57:17.076-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-08-24T12:57:17.357-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T12:57:35.490-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:57:35.490-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:57:41.765-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/autores/7", parameters={}
+2025-08-24T12:57:41.766-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#actualizar(Long, AutorDTO)
+2025-08-24T12:57:41.769-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [AutorDTO(id=7, nombres=JULIO, apellidos=PANTOJA ERNESTO, pais=RUSIA, estado=A)]
+2025-08-24T12:57:41.773-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:57:41.781-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] org.hibernate.SQL                        : 
+    update
+        USERLP2.tbl_autores 
+    set
+        apellidos=?,
+        estado=?,
+        nombres=?,
+        pais=? 
+    where
+        id=?
+2025-08-24T12:57:41.794-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:57:41.795-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [AutorDTO(id=7, nombres=JULIO, apellidos=PANTOJA ERNESTO, pais=RUSIA, estado=A)]
+2025-08-24T12:57:41.797-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:57:49.881-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : DELETE "/api/v1/autores/7", parameters={}
+2025-08-24T12:57:49.882-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#eliminar(Long)
+2025-08-24T12:57:49.884-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0 
+    where
+        a1_0.id=?
+2025-08-24T12:57:49.893-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] org.hibernate.SQL                        : 
+    update
+        USERLP2.tbl_autores 
+    set
+        apellidos=?,
+        estado=?,
+        nombres=?,
+        pais=? 
+    where
+        id=?
+2025-08-24T12:57:49.901-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2025-08-24T12:57:49.901-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["autor desactivado correctamente"]
+2025-08-24T12:57:49.902-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:57:53.943-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/autores", parameters={}
+2025-08-24T12:57:53.944-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.AutorController#getAll()
+2025-08-24T12:57:53.948-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] org.hibernate.SQL                        : 
+    select
+        a1_0.id,
+        a1_0.apellidos,
+        a1_0.estado,
+        a1_0.nombres,
+        a1_0.pais 
+    from
+        USERLP2.tbl_autores a1_0
+2025-08-24T12:57:53.954-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-08-24T12:57:53.955-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[AutorDTO(id=7, nombres=JULIO, apellidos=PANTOJA ERNESTO, pais=RUSIA, estado=I), AutorDTO(id=1, nomb (truncated)...]
+2025-08-24T12:57:53.958-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:58:05.117-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T12:58:05.503-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:58:05.503-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:58:08.251-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T12:58:14.534-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:58:15.170-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T12:58:22.861-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T12:58:30.400-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T12:58:35.057-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T12:58:35.507-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:58:35.507-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:58:47.327-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T12:58:56.016-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T12:59:01.645-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T12:59:05.521-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:59:05.522-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:59:10.804-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/categorias", parameters={}
+2025-08-24T12:59:10.805-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.CategoriaController#getAll()
+2025-08-24T12:59:10.810-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0
+2025-08-24T12:59:10.816-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-08-24T12:59:10.820-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[CategoriaDTO(id=5, nombre=NO TECNOLOGIA 1, estado=I), CategoriaDTO(id=1, nombre=FICCIÓN, estado=A), (truncated)...]
+2025-08-24T12:59:10.821-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:59:10.954-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-08-24T12:59:10.955-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-08-24T12:59:10.956-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-08-24T12:59:10.957-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.biblioteca.controller.error.GlobalExceptionHandler#handleGeneric(Exception, HttpServletRequest)
+2025-08-24T12:59:10.957-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/problem+json]
+2025-08-24T12:59:10.957-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Error interno', status=500, detail='Ha ocurrido un error no (truncated)...]
+2025-08-24T12:59:10.959-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-08-24T12:59:10.960-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-08-24T12:59:35.414-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/secciones", parameters={}
+2025-08-24T12:59:35.415-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.biblioteca.controller.general.SeccionController#getAll()
+2025-08-24T12:59:35.418-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        s1_0.id,
+        s1_0.categoria_id,
+        s1_0.estado,
+        s1_0.nombre 
+    from
+        USERLP2.tbl_secciones s1_0
+2025-08-24T12:59:35.421-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:59:35.425-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:59:35.428-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:59:35.431-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:59:35.435-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.estado,
+        c1_0.nombre 
+    from
+        USERLP2.tbl_categorias c1_0 
+    where
+        c1_0.id=?
+2025-08-24T12:59:35.440-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2025-08-24T12:59:35.440-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[SeccionDTO(id=5, nombre=CALCULO DIFERENCIAL III, estado=I, categoriaId=5), SeccionDTO(id=1, nombre= (truncated)...]
+2025-08-24T12:59:35.442-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-08-24T12:59:35.489-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-08-24T12:59:35.490-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-08-24T12:59:35.499-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-08-24T12:59:35.500-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.example.biblioteca.controller.error.GlobalExceptionHandler#handleGeneric(Exception, HttpServletRequest)
+2025-08-24T12:59:35.500-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/problem+json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/problem+json]
+2025-08-24T12:59:35.500-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ProblemDetail[type='about:blank', title='Error interno', status=500, detail='Ha ocurrido un error no (truncated)...]
+2025-08-24T12:59:35.501-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-08-24T12:59:35.501-05:00 DEBUG 7100 --- [biblioteca] [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-08-24T12:59:35.536-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T12:59:35.536-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T12:59:51.001-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T12:59:58.877-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T13:00:02.860-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T13:00:05.547-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:00:05.547-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:00:09.448-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T13:00:10.922-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T13:00:14.869-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T13:00:20.271-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T13:00:29.287-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T13:00:35.551-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:00:35.551-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:00:39.450-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T13:00:45.940-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T13:01:05.555-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:01:05.555-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:01:27.479-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T13:01:35.570-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:01:35.570-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:01:48.507-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T13:01:52.645-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T13:01:54.679-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T13:01:57.475-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T13:02:05.577-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:02:05.577-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:02:06.666-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T13:02:11.241-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T13:02:17.687-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T13:02:22.879-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T13:02:30.235-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T13:02:35.594-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:02:35.594-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:03:03.954-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T13:03:05.609-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:03:05.609-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:03:27.555-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T13:03:34.485-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T13:03:35.623-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:03:35.623-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:03:46.401-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T13:03:52.084-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T13:03:53.197-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T13:04:02.413-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T13:04:05.632-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:04:05.632-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:04:06.317-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T13:04:14.525-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T13:04:15.096-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T13:04:35.640-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:04:35.640-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:04:40.420-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T13:05:05.647-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:05:05.647-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:05:06.614-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T13:05:14.304-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T13:05:35.143-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T13:05:35.651-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:05:35.651-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:05:40.165-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@690feaea is alive
+2025-08-24T13:05:46.693-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@54bb1194 is alive
+2025-08-24T13:05:49.738-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@37e9c702 is alive
+2025-08-24T13:05:58.168-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@1817ffe5 is alive
+2025-08-24T13:05:58.811-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@241d475f is alive
+2025-08-24T13:06:05.662-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:06:05.662-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:06:12.499-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@679cb12a is alive
+2025-08-24T13:06:16.886-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@5dd2567a is alive
+2025-08-24T13:06:35.669-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:06:35.669-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:06:45.661-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@3ec38a3a is alive
+2025-08-24T13:06:54.115-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6483490d is alive
+2025-08-24T13:07:05.672-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:07:05.672-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-08-24T13:07:17.099-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - keepalive: connection oracle.jdbc.driver.T4CConnection@6cc58e81 is alive
+2025-08-24T13:07:22.503-05:00  INFO 7100 --- [biblioteca] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-24T13:07:22.517-05:00  INFO 7100 --- [biblioteca] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-24T13:07:22.525-05:00  INFO 7100 --- [biblioteca] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-24T13:07:22.527-05:00  INFO 7100 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-24T13:07:22.527-05:00 DEBUG 7100 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Before shutdown stats (total=10/10, idle=10/10, active=0, waiting=0)
+2025-08-24T13:07:22.529-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@54bb1194: (connection evicted)
+2025-08-24T13:07:22.535-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@37e9c702: (connection evicted)
+2025-08-24T13:07:22.535-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@6cc58e81: (connection evicted)
+2025-08-24T13:07:22.535-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@5dd2567a: (connection evicted)
+2025-08-24T13:07:22.539-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@679cb12a: (connection evicted)
+2025-08-24T13:07:22.543-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@241d475f: (connection evicted)
+2025-08-24T13:07:22.546-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@3ec38a3a: (connection evicted)
+2025-08-24T13:07:22.548-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@6483490d: (connection evicted)
+2025-08-24T13:07:22.548-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@690feaea: (connection evicted)
+2025-08-24T13:07:22.551-05:00 DEBUG 7100 --- [biblioteca] [HikariPool-1:connection-closer] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@1817ffe5: (connection evicted)
+2025-08-24T13:07:22.553-05:00 DEBUG 7100 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After  shutdown stats (total=0/10, idle=0/10, active=0, waiting=0)
+2025-08-24T13:07:22.553-05:00  INFO 7100 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
