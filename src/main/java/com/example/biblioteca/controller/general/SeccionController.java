@@ -2,7 +2,6 @@ package com.example.biblioteca.controller.general;
 
 import com.example.biblioteca.controller.error.BusinessException;
 import com.example.biblioteca.controller.error.ResourceNotFoundException;
-import com.example.biblioteca.dto.CategoriaDTO;
 import com.example.biblioteca.dto.SeccionDTO;
 import com.example.biblioteca.service.general.service.SeccionService;
 import jakarta.validation.Valid;
@@ -22,6 +21,7 @@ import static java.util.Objects.isNull;
 @RequestMapping("api/v1/secciones")
 public class SeccionController {
     private final SeccionService seccionService;
+
     @GetMapping
     public ResponseEntity<?> getAll() {
         try {

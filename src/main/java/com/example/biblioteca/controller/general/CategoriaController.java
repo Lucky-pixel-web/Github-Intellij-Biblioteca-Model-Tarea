@@ -18,7 +18,7 @@ import static java.util.Objects.isNull;
 @RequiredArgsConstructor
 @RestController
 @Slf4j
-@RequestMapping("api/v1/categorias")
+@RequestMapping("api/v1/categorias")    
 public class CategoriaController {
     private final CategoriaService categoriaService;
 
